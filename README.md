@@ -14,7 +14,7 @@ https://developers.google.com/identity/sign-in/android/start<br />
 
 
 # Installation
-Extension ID: com.pozirk.AndroidInAppPurchase<br />
+Extension ID: com.gerantech.extensions.gplus<br />
 Add "gplus-extension.ane" from package folder to ane folder in your AIR project.<br />
 Add the following lines to your AIR Aplication-app.xml file inside &lt;manifestAdditions&gt; section:<br />
 <br />
