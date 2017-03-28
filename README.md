@@ -42,13 +42,13 @@ import com.gerantech.extensions.gplus.models.Result;
 private var extension:GPlusExtension;
 ...
 
-//> initialization of Google Plus API
+// initialization of Google Plus API
 extension = GPlusExtension.instance;
 extension.addEventListener(GPlusEvent.GPLUS_RESULT , extension_eventsHandler);
 
 ...
 
-//> call this methods step by step after you dont received any error or failure message
+// call this methods step by step after you dont received any error or failure message
 extension.init();
 ...
 extension.login();
